@@ -806,6 +806,58 @@
       font-weight: 500;
     }
 
+
+    .project-count {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #ffffff;
+      border: 1px solid var(--line);
+      color: var(--primary-dark);
+      border-radius: 999px;
+      padding: 9px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      box-shadow: 0 8px 22px rgba(47, 111, 149, 0.06);
+      margin-top: 14px;
+    }
+
+    .all-projects-intro {
+      background: linear-gradient(135deg, #ffffff, var(--soft-blue));
+      border: 1px solid var(--line);
+      border-radius: 26px;
+      padding: 28px;
+      box-shadow: var(--shadow);
+      margin-bottom: 34px;
+    }
+
+    .all-projects-intro h3 {
+      font-weight: 700;
+      letter-spacing: -0.025em;
+      margin-bottom: 10px;
+      color: var(--text);
+    }
+
+    .all-projects-intro p {
+      color: var(--text-soft);
+      margin-bottom: 0;
+    }
+
+    .project-card {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .project-card-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .project-card-body .link-arrow {
+      margin-top: auto;
+    }
+
     @media (max-width: 1199px) {
       .floating-card.one {
         left: 8px;
@@ -1192,10 +1244,20 @@
   <section class="section" id="portfolio">
     <div class="container">
       <div class="section-title">
-        <span class="eyebrow"><i class="fa fa-rocket"></i> Project Work</span>
-        <h2>Project Portfolio</h2>
+        <span class="eyebrow"><i class="fa fa-folder-open"></i> Portfolio</span>
+        <h2>All Projects</h2>
         <p>
-          A complete collection of my web systems, dashboards, academic projects and industry-related development work.
+          This section displays my complete project collection in one page, including web systems, dashboards, academic projects and industry-related development work.
+        </p>
+        <div class="project-count">
+          <i class="fa fa-check-circle"></i> 10 projects visible
+        </div>
+      </div>
+
+      <div class="all-projects-intro" data-aos="fade-up">
+        <h3>Project categories included</h3>
+        <p>
+          Final Year Project, Data Mining Dashboard, ERP/Internal Systems, HR System, Label Generator, Sales Management, Maintenance System, Product Document System, Industrial Training System and Clinic Web Project.
         </p>
       </div>
 
@@ -1230,22 +1292,15 @@
         </div>
       </div>
 
-      <div class="section-title" style="margin-bottom: 30px;">
-        <span class="eyebrow"><i class="fa fa-folder-open"></i> All Projects</span>
-        <h2 style="font-size: clamp(26px, 3.5vw, 38px);">Web Systems, Dashboards & Academic Work</h2>
-        <p>
-          All projects are visible in one clean layout so recruiters, lecturers and clients can review them easily.
-        </p>
-      </div>
-
       <div class="row">
 
+        <!-- 1. SocioTrack -->
         <div class="col-lg-4 col-md-6 mb-4">
           <a href="https://socio-track.vercel.app/" target="_blank">
-            <div class="project-card" data-aos="fade-up">
+            <div class="project-card">
               <img src="images/p11.jpg" alt="SocioTrack ESG Monitoring Application">
               <div class="project-card-body">
-                <span class="small-tag">Final Year Project / ESG</span>
+                <span class="small-tag">01 / Final Year Project</span>
                 <h4>SocioTrack ESG Monitoring Application</h4>
                 <p>ESG social monitoring prototype with attendance, wellbeing, reporting, training and AI-assisted task prioritization.</p>
                 <span class="link-arrow">View live project <i class="fa fa-arrow-right"></i></span>
@@ -1254,12 +1309,13 @@
           </a>
         </div>
 
+        <!-- 2. EduTrack -->
         <div class="col-lg-4 col-md-6 mb-4">
           <a href="https://umkedutrack.streamlit.app/" target="_blank">
-            <div class="project-card" data-aos="fade-up" data-aos-delay="80">
+            <div class="project-card">
               <img src="images/p10.jpg" alt="EduTrack Analytics Dashboard">
               <div class="project-card-body">
-                <span class="small-tag">Data Mining / Streamlit</span>
+                <span class="small-tag">02 / Data Mining</span>
                 <h4>EduTrack Analytics Dashboard</h4>
                 <p>A Streamlit-based analytics dashboard for exploring and visualizing education-related data insights.</p>
                 <span class="link-arrow">View live project <i class="fa fa-arrow-right"></i></span>
@@ -1268,12 +1324,13 @@
           </a>
         </div>
 
+        <!-- 3. ERP Inventory -->
         <div class="col-lg-4 col-md-6 mb-4">
           <a href="images/p8.JPG" target="_blank">
-            <div class="project-card" data-aos="fade-up" data-aos-delay="160">
+            <div class="project-card">
               <img src="images/p8.JPG" alt="ERP Inventory System">
               <div class="project-card-body">
-                <span class="small-tag">ERP / Inventory</span>
+                <span class="small-tag">03 / ERP Inventory</span>
                 <h4>ERP Inventory System</h4>
                 <p>Internal system supporting inventory, store, logistics, production, QC and purchasing operations.</p>
                 <span class="link-arrow">View preview <i class="fa fa-arrow-right"></i></span>
@@ -1282,12 +1339,13 @@
           </a>
         </div>
 
+        <!-- 4. Subwork -->
         <div class="col-lg-4 col-md-6 mb-4">
           <a href="images/Work Instruction (Subwork System 1.0).pdf" target="_blank">
-            <div class="project-card" data-aos="fade-up">
+            <div class="project-card">
               <img src="images/p5.JPG" alt="Subwork System">
               <div class="project-card-body">
-                <span class="small-tag">HR / Internal System</span>
+                <span class="small-tag">04 / HR System</span>
                 <h4>Subwork System</h4>
                 <p>HR and system-related web project with documented work instruction for internal operational use.</p>
                 <span class="link-arrow">Read document <i class="fa fa-arrow-right"></i></span>
@@ -1296,12 +1354,13 @@
           </a>
         </div>
 
+        <!-- 5. Label Generator -->
         <div class="col-lg-4 col-md-6 mb-4">
           <a href="images/User Manual (Label Generator System).pdf" target="_blank">
-            <div class="project-card" data-aos="fade-up" data-aos-delay="80">
+            <div class="project-card">
               <img src="images/p4.JPG" alt="Label Generator System">
               <div class="project-card-body">
-                <span class="small-tag">Operations Tool</span>
+                <span class="small-tag">05 / Operations Tool</span>
                 <h4>Label Generator System</h4>
                 <p>Web-based label generator supporting store, logistics and department documentation needs.</p>
                 <span class="link-arrow">Read user manual <i class="fa fa-arrow-right"></i></span>
@@ -1310,12 +1369,13 @@
           </a>
         </div>
 
+        <!-- 6. Sales Management -->
         <div class="col-lg-4 col-md-6 mb-4">
           <a href="images/Sale Management Proposal.pdf" target="_blank">
-            <div class="project-card" data-aos="fade-up" data-aos-delay="160">
+            <div class="project-card">
               <img src="images/p7.JPG" alt="Sales Management System">
               <div class="project-card-body">
-                <span class="small-tag">Web System / ERP</span>
+                <span class="small-tag">06 / ERP Sales</span>
                 <h4>Sales Management System</h4>
                 <p>ERP module supporting sales, purchasing, store, logistics and operation workflow management.</p>
                 <span class="link-arrow">Read proposal <i class="fa fa-arrow-right"></i></span>
@@ -1324,12 +1384,13 @@
           </a>
         </div>
 
+        <!-- 7. Maintenance System -->
         <div class="col-lg-4 col-md-6 mb-4">
           <a href="images/Proposal Maintenance System.pdf" target="_blank">
-            <div class="project-card" data-aos="fade-up">
+            <div class="project-card">
               <img src="images/p6.JPG" alt="Enterprise Asset Management System">
               <div class="project-card-body">
-                <span class="small-tag">Maintenance / Asset</span>
+                <span class="small-tag">07 / Maintenance System</span>
                 <h4>Enterprise Asset Management System</h4>
                 <p>System proposal for maintenance, engineering and production asset tracking and operational planning.</p>
                 <span class="link-arrow">Read proposal <i class="fa fa-arrow-right"></i></span>
@@ -1338,12 +1399,13 @@
           </a>
         </div>
 
+        <!-- 8. Product Document System -->
         <div class="col-lg-4 col-md-6 mb-4">
           <a href="images/PROPOSAL PRODUCT DOCUMENT SYSTEM.pdf" target="_blank">
-            <div class="project-card" data-aos="fade-up" data-aos-delay="80">
+            <div class="project-card">
               <img src="images/p3.JPG" alt="Product Document System">
               <div class="project-card-body">
-                <span class="small-tag">Document System</span>
+                <span class="small-tag">08 / Document System</span>
                 <h4>Product Document System</h4>
                 <p>Startup project concept for organizing product documentation and departmental information access.</p>
                 <span class="link-arrow">Read proposal <i class="fa fa-arrow-right"></i></span>
@@ -1352,12 +1414,13 @@
           </a>
         </div>
 
+        <!-- 9. E-Pelawat KKMM -->
         <div class="col-lg-4 col-md-6 mb-4">
           <a href="images/LAPORAN AKHIR OJT .pdf" target="_blank">
-            <div class="project-card" data-aos="fade-up" data-aos-delay="160">
+            <div class="project-card">
               <img src="images/p2.JPG" alt="E-Pelawat KKMM Visitor Management System">
               <div class="project-card-body">
-                <span class="small-tag">Industrial Training</span>
+                <span class="small-tag">09 / Industrial Training</span>
                 <h4>E-Pelawat KKMM Visitor Management System</h4>
                 <p>PHP-based visitor management system developed during industrial training to support visitor registration workflow.</p>
                 <span class="link-arrow">Read report <i class="fa fa-arrow-right"></i></span>
@@ -1366,12 +1429,13 @@
           </a>
         </div>
 
+        <!-- 10. E-KlinikVS -->
         <div class="col-lg-4 col-md-6 mb-4">
           <a href="images/E-Klinikvs Presentation PT2.pdf" target="_blank">
-            <div class="project-card" data-aos="fade-up">
+            <div class="project-card">
               <img src="images/p1.JPG" alt="E-KlinikVS Web Project">
               <div class="project-card-body">
-                <span class="small-tag">Web Development</span>
+                <span class="small-tag">10 / Web Development</span>
                 <h4>E-KlinikVS Web Project</h4>
                 <p>Clinic-related web project developed as an academic system with presentation documentation.</p>
                 <span class="link-arrow">View presentation <i class="fa fa-arrow-right"></i></span>
