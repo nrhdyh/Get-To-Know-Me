@@ -151,7 +151,7 @@
       );
       status.textContent =
         category === "all" && !query
-          ? "10 documented projects + 1 concept · selected work below"
+          ? "11 projects · selected work below"
           : `${count} of ${projects.length} entries match${query ? ` “${search.value.trim()}”` : ""}`;
       const archiveCount = library
         ? [...library.querySelectorAll("[data-project]")].filter(
@@ -196,7 +196,7 @@
       );
       if (insight)
         insight.textContent = active
-          ? `${button.textContent}: ${button.dataset.skill}`
+          ? `${button.textContent.trim()}: ${button.dataset.skill}`
           : "Choose a tool above to see where it fits into my work.";
     }),
   );
