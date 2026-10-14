@@ -1,0 +1,180 @@
+{
+  "source_commit": "928cadc",
+  "projects": [
+    {
+      "slug": "sociotrack",
+      "title": "SocioTrack ESG Monitoring Application",
+      "description": "A web-based ESG social monitoring prototype for SMEs, featuring attendance tracking, wellbeing check-ins, employee reporting, training management, staff access and AI-assisted HR/admin task prioritization.",
+      "category": "Final Year Project",
+      "categories": "web academic",
+      "image": "images/p11.jpg",
+      "alt": "SocioTrack ESG Monitoring Application preview",
+      "link": "https://socio-track.vercel.app/",
+      "action": "View live project",
+      "number": "01"
+    },
+    {
+      "slug": "edutrack",
+      "title": "EduTrack Analytics Dashboard",
+      "description": "A Streamlit-based analytics dashboard for exploring and visualizing education-related data insights.",
+      "category": "Data Mining",
+      "categories": "data academic",
+      "image": "images/p10.jpg",
+      "alt": "EduTrack Analytics Dashboard preview",
+      "link": "https://umkedutrack.streamlit.app/",
+      "action": "View live project",
+      "number": "02"
+    },
+    {
+      "slug": "inventory-system",
+      "title": "ERP Inventory System",
+      "description": "Internal system supporting inventory, store, logistics, production, QC and QA.",
+      "category": "ERP Inventory",
+      "categories": "business",
+      "image": "images/p8.JPG",
+      "alt": "ERP Inventory System preview",
+      "link": "images/p8.JPG",
+      "action": "View preview",
+      "number": "03"
+    },
+    {
+      "slug": "subwork",
+      "title": "Subwork System",
+      "description": "HR and system-related web project with documented work instruction for internal operational use.",
+      "category": "HR System",
+      "categories": "business",
+      "image": "images/p5.JPG",
+      "alt": "Subwork System preview",
+      "link": "images/Work Instruction (Subwork System 1.0).pdf",
+      "action": "Read document",
+      "number": "04"
+    },
+    {
+      "slug": "label-generator",
+      "title": "Label Generator System",
+      "description": "Web-based label generator supporting store, logistics and department documentation needs.",
+      "category": "Operations Tool",
+      "categories": "business",
+      "image": "images/p4.JPG",
+      "alt": "Label Generator System preview",
+      "link": "images/User Manual (Label Generator System).pdf",
+      "action": "Read user manual",
+      "number": "05"
+    },
+    {
+      "slug": "sales-management",
+      "title": "Sales Management System",
+      "description": "ERP module supporting sales, purchasing, store, logistics and operation workflow management.",
+      "category": "ERP Sales",
+      "categories": "business",
+      "image": "images/p7.JPG",
+      "alt": "Sales Management System preview",
+      "link": "images/Sale Management Proposal.pdf",
+      "action": "Read proposal",
+      "number": "06"
+    },
+    {
+      "slug": "asset-management",
+      "title": "Enterprise Asset Management System",
+      "description": "System proposal for maintenance, engineering and production asset tracking and operational planning.",
+      "category": "Maintenance System",
+      "categories": "business",
+      "image": "images/p6.JPG",
+      "alt": "Enterprise Asset Management System preview",
+      "link": "images/Proposal Maintenance System.pdf",
+      "action": "Read proposal",
+      "number": "07"
+    },
+    {
+      "slug": "product-documents",
+      "title": "Product Document System",
+      "description": "Startup project concept for organizing product documentation and departmental information access.",
+      "category": "Document System",
+      "categories": "business",
+      "image": "images/p3.JPG",
+      "alt": "Product Document System preview",
+      "link": "images/PROPOSAL PRODUCT DOCUMENT SYSTEM.pdf",
+      "action": "Read proposal",
+      "number": "08"
+    },
+    {
+      "slug": "visitor-management",
+      "title": "E-Pelawat KKMM Visitor Management System",
+      "description": "PHP-based visitor management system developed during industrial training to support visitor registration workflow.",
+      "category": "Industrial Training",
+      "categories": "web",
+      "image": "images/p2.JPG",
+      "alt": "E-Pelawat KKMM Visitor Management System preview",
+      "link": "images/LAPORAN AKHIR OJT .pdf",
+      "action": "Read report",
+      "number": "09"
+    },
+    {
+      "slug": "e-klinikvs",
+      "title": "E-KlinikVS Web Project",
+      "description": "Clinic-related web project developed as an academic system with presentation documentation.",
+      "category": "Web Development",
+      "categories": "web academic",
+      "image": "images/p1.JPG",
+      "alt": "E-KlinikVS Web Project preview",
+      "link": "images/E-Klinikvs Presentation PT2.pdf",
+      "action": "View presentation",
+      "number": "10"
+    }
+  ],
+  "experience": [
+    {
+      "date": "June 2022 – 2026",
+      "company": "Kennwu Manufacturing",
+      "role": "System Officer",
+      "points": [
+        "Maintained company computer systems, software and operational IT support to ensure smooth daily workflow.",
+        "Developed and enhanced internal web-based systems using PHP, SQL, HTML, CSS and JavaScript.",
+        "Provided technical troubleshooting, user support and documentation for system-related issues.",
+        "Prepared monthly QC reports, inventory reviews and technical records using Excel and Google Sheets.",
+        "Supported workflow improvement by identifying operational pain points and suggesting practical digital solutions."
+      ]
+    },
+    {
+      "date": "Nov 2021 – Feb 2022",
+      "company": "Twinbird Game and Electronics",
+      "role": "Sales Assistant (Part-time)",
+      "points": [
+        "Assisted customers with product enquiries, sales activities and daily store operations.",
+        "Maintained store cleanliness, product arrangement and accurate price checking.",
+        "Supported monthly inventory stocktaking and basic sales record verification."
+      ]
+    },
+    {
+      "date": "March 2021 – July 2021",
+      "company": "Ministry of Communications and Multimedia Malaysia",
+      "role": "Industrial Training Intern",
+      "points": [
+        "Prepared online meeting tools, meeting links and draft meeting minutes for department coordination.",
+        "Supported administrative digital processes and documentation tasks.",
+        "Developed a PHP-based Visitor Management System as an industrial training project.",
+        "Gained exposure to digital administration and public-sector IT working processes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "date": "2023 – 2026",
+      "school": "Universiti Malaysia Kelantan",
+      "qualification": "Bachelor of Information Technology (Hons.) Data Science",
+      "grade": "Current GPA: 3.69"
+    },
+    {
+      "date": "2021",
+      "school": "Sepang Vocational College",
+      "qualification": "Diploma in Database Management System & Web Development",
+      "grade": "GPA: 3.81"
+    },
+    {
+      "date": "2018",
+      "school": "Sepang Vocational College",
+      "qualification": "Malaysian Vocational Certificate",
+      "grade": "GPA: 3.61"
+    }
+  ]
+}
