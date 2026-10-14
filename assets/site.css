@@ -1623,15 +1623,15 @@ svg {
   font: 10px var(--mono);
   color: var(--muted);
 }
-.concept-visual {
+.service-visual {
   max-width: 900px;
   margin: auto;
   height: 320px;
 }
-.concept-visual .wizard-mark {
+.service-visual .wizard-mark {
   font-size: 80px;
 }
-.concept-visual .wizard-spark {
+.service-visual .wizard-spark {
   right: 23%;
   font-size: 100px;
 }
@@ -2484,13 +2484,13 @@ svg {
     flex-direction: column;
     gap: 20px;
   }
-  .concept-visual {
+  .service-visual {
     height: 250px;
   }
-  .concept-visual .wizard-mark {
+  .service-visual .wizard-mark {
     font-size: 60px;
   }
-  .concept-visual .wizard-spark {
+  .service-visual .wizard-spark {
     font-size: 70px;
     right: 16%;
   }
@@ -2606,4 +2606,39 @@ html.motion-off {
 html.motion-off::view-transition-old(root),
 html.motion-off::view-transition-new(root) {
   animation: none !important;
+}
+
+.wizard-logo {
+  position: relative;
+  z-index: 1;
+  width: 80%;
+  max-width: 360px;
+  height: auto;
+  object-fit: contain;
+}
+.service-visual .wizard-logo {
+  max-width: 470px;
+  width: 70%;
+}
+.case-intro > div:first-child > p {
+  color: var(--muted);
+  font-size: 15px;
+  max-width: 700px;
+}
+.case-intro > div:first-child > .text-link {
+  margin-top: 15px;
+}
+.wizard-project .text-link + .text-link {
+  margin-left: 16px;
+}
+@media (max-width: 650px) {
+  .case-intro > div:first-child > p {
+    font-size: 13px;
+  }
+  .wizard-project .text-link + .text-link {
+    margin-left: 10px;
+  }
+  .service-visual .wizard-logo {
+    width: 84%;
+  }
 }
